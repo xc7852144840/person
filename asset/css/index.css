@@ -70,17 +70,36 @@ background-size: contain;
  z-index:0;
  border-radius: 30px;
   }
+  .bg6{
+ background-color: white;
+position:absolute;
+width: 1200px;
+height: 1300px;
+/*background-image: url('../img/book.png');*/ 
+margin: 2700px 20px 10px 150px;
+      
+background-size: contain;
+ background:rgba(0,0,0,0.6);
+ z-index:0;
+ border-radius: 30px;
+  }
 .fiexd-header{
- background-image: url('../img/2.jfif');
- /* background:#DDDDDD;*/
+  padding-left: 160px;
+  padding-top: 20px;
+ 
+ /*background:
+#AAAAAA;*/
+ background-image: url('../img/8.jpg');
   color:black;
   /*border-top:2px solid #336699;
   border-bottom:2px solid #336699;*/
   width:100%;
-  height:90px;
+  height:75px;
   position:fixed; /*固定位置定位*/
-  top:0; /*距離上方 0 像素*/
+  top:0px; /*距離上方 0 像素*/
+  left:0px;
   z-index:1; /*重疊時會在其他元素之上*/
+  
 }
 /*nav固定---------------------------------*/
 
@@ -102,6 +121,33 @@ background-size: contain;
 
 }
 /*個人照-------------------------------*/
+
+.pos2{
+  position:fixed;
+  width: 150px;
+  height:80px;
+  top:10px;
+  left: 20px;
+
+}
+.pos3{
+  position:fixed;
+  width: 80px;
+  height:80px;
+  top:10px;
+  left:89%;
+z-index: 3;
+}
+.pos4{
+  position:fixed;
+   top:15px;
+  width: 67px;
+  height:67px;
+ 
+  left:95%;
+  z-index: 3;
+
+}
 
 .sbg{
   position:absolute;
@@ -204,10 +250,10 @@ font-family:Microsoft JhengHei;
         .hover img {
   position:absolute;
   /* CSS3淡出淡入效果,1秒 */
-  -webkit-transition: opacity 0.5s ease-in-out;
-  -moz-transition: opacity 0.5s ease-in-out;
-  -o-transition: opacity 0.5s ease-in-out;
-  transition: opacity 0.5s ease-in-out;
+  -webkit-transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -o-transition: opacity 1s ease-in-out;
+  transition: opacity 1s ease-in-out;
 }
 /*---------------------------------*/
 .aaa ul li{
@@ -220,10 +266,13 @@ padding:10px 10px 10px 10px;
 .bbb {
     width : 200px;
     height : 100px;
-    background-color :#CCCCFF;
+    background-color :
+white;
+    /*background-color :
+#DDDDDD;*/
 
    /* margin : 80px auto 0;*/
-    margin:10px 20px 40px 30px;
+    margin:10px 10px 40px 10px;
     transition : 0.5s;
     border-radius: 10px;
   }
@@ -236,3 +285,29 @@ padding:10px 10px 10px 10px;
 
   }
   /*置頂文字---------------------*/
+  .pic img{
+
+    padding-left:70px;
+    padding-top: 50px;
+
+  }
+  /*----------------------------------------*/
+.back{
+  height:70px;
+  width: 80px;
+  top: 80%;
+  left: 92%;
+  position: fixed;
+}
+footer{
+  
+  width:100%;
+  
+  height:100px;
+  top:90%;
+　position: relative;
+
+  z-index:1; /*重疊時會在其他元素之上*/
+  background-color:white;
+  
+}
