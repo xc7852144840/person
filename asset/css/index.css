@@ -1,6 +1,7 @@
 .bg{
 background-image: url('../img/bg.jpg');
 background-size: cover;
+background-attachment:fixed;
 /*position:fixed; /*固定位置定位*/
 }
 /*背景圖片-------------------*/
@@ -299,15 +300,17 @@ white;
   left: 92%;
   position: fixed;
 }
-footer{
-  
-  width:100%;
-  
-  height:100px;
-  top:90%;
-　position: relative;
+.fff{
 
-  z-index:1; /*重疊時會在其他元素之上*/
-  background-color:white;
+position:absolute;
+width: 1450px;
+height: 60px;
+/*background-image: url('../img/book.png');*/ 
+margin: 4020px 20px 0px 25px;
+      
+background-size: contain;
+ background:rgba(0,0,0,0.6);
+ z-index:0;
+ border-radius: 30px 30px 0px 0px;
   
 }
