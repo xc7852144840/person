@@ -88,9 +88,9 @@ background-size: contain;
   padding-left: 160px;
   padding-top: 20px;
  
- /*background:
-#AAAAAA;*/
- background-image: url('../img/8.jpg');
+ background:
+  #444444;
+ /*background-image: url('../img/8.jpg');*/
   color:black;
   /*border-top:2px solid #336699;
   border-bottom:2px solid #336699;*/
@@ -287,9 +287,12 @@ white;
   }
   /*置頂文字---------------------*/
   .pic img{
-
+   
     padding-left:70px;
     padding-top: 50px;
+    padding-right: 0px;
+
+    transition: 1s;
 
   }
   /*----------------------------------------*/
@@ -313,4 +316,34 @@ background-size: contain;
  z-index:0;
  border-radius: 30px 30px 0px 0px;
   
+}
+@keyframes  swing  {
+    15% { transform:  translateX(5px); }
+    40% { transform:  translateX(-5px); }
+    65% { transform:  translateX(2px); }
+    85% { transform:  translateX(-2px); }
+    100% { transform:  translateX(0px); }
+  }
+
+
+.move:hover {
+
+    animation : swing 1s 1;
+  
+
+
+  }
+
+  .demo {
+    width : 200px;
+    height : 200px;
+    background-color : #ccc;
+    margin : 80px auto 0;
+    transition : 0.5s;
+  }
+
+
+h1{
+  font-size: 30px;
+  padding: 5px 5px 2px 5px;
 }
